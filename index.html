@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Spotify</div>
+        <div class="profile">Profile Name</div>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button class="mic-btn">
+                <i class="fas fa-microphone"></i>
+            </button>
+
+        </div>
+        <img src="https://www.svgrepo.com/show/31480/notification-bell.svg" alt="Notifications" style="height: 20px;background-color: white;color: white;">
+    </header>
+    <div class="container">
+        <main class="main-content">
+            <section class="playlists">
+                <h2>Playlists</h2>
+                <div class="playlist">
+                    <img src="https://img.wynk.in/unsafe/200x200/filters:no_upscale():strip_exif():format(jpg)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/65a6b6a7ad427c174bfd5e34/COLLECTION_45501149809823.png" alt="Playlist 1">
+                    <p>Latin Hits</p>
+                </div>
+                <div class="playlist">
+                    <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84486d80a332b2b6f3d848c40b" alt="Playlist 2">
+                    <p>EDM</p>
+                </div>
+                <div class="playlist">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuzhp6jwbi16tq7aZGS81EPpJHmAmf-lUExA&s" alt="bollywoodchill">
+                    <p>BollywoodChill</p>
+                </div>
+                <!-- Add more playlists as needed -->
+            </section>
+            <section class="releases">
+                <h2>Recent Releases</h2>
+                <div class="release">
+                    <img src="https://a10.gaanacdn.com/gn_img/albums/R7vKX6WmrP/vKX6oPGgWm/size_m_1642590804.jpg" alt="Release 1">
+                    <p>Pushpa</p>
+                   
+                </div>
+                <div class="release">
+                    <img src="https://qph.cf2.quoracdn.net/main-qimg-ee14653f39506a5070a88c2966bf8da4-lq" height="130px" alt="Release 2">
+                    <p>Hamari Adhuri Kahani</p>
+                    
+                </div>
+                <div class="release">
+                    <img src="https://i.ytimg.com/vi/Ks2iiO9WyGY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDxLfXaATUDPogFXTlJkJ4oDkOMlQ" height="150px" alt="Release 1">
+                    <p>Gaddar 2</p>
+                   
+                </div>
+                <div class="release">
+                    <img src="https://a10.gaanacdn.com/gn_img/albums/MmqK5EKwRO/qK5ZjGr13w/size_m.jpg"  alt="Release 1">
+                    <p>Kalki</p>
+                   
+                </div>
+                <div class="release">
+                    <img src="https://m.media-amazon.com/images/M/MV5BN2VjYzIxN2ItN2E0MS00ODE4LThjMTgtMzE2OTM0ZmM4YjBmXkEyXkFqcGdeQXVyMTc0OTI3NjUy._V1_FMjpg_UX1000_.jpg" height="130px" alt="Release 1">
+                    <p>Bade Miyaan Chote Miyaan</p>
+                   
+                </div>
+                <!-- Add more releases as needed -->
+            </section>
+            <section class="artists">
+                <h2>Popular Artists</h2>
+                <div class="artist">
+                    <img src="https://static.toiimg.com/thumb/msid-74687150,width-400,resizemode-4/74687150.jpg" alt="Artist 1">
+                    <p>B Praak</p>
+                </div>
+                <div class="artist">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc8LNNcJmU4IquBmKB2cNWqcsN0hFAJomCQg&s" height="120px" alt="Artist 2">
+                    <p>Arijit Singh</p>
+                </div>
+
+                <div class="artist">
+                    <img src=" https://chetnamanch.com/wp-content/uploads/2022/12/rehcrdg-fjkihoj8pc5xvbrntmui-e1669975488926.jpg" height="120px" alt="Artist 2">
+                    <p>Jubin Nautiyal</p>
+                </div>
+                <div class="artist">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShLl_hhHLXtnYMd9iPiS9rxc4VSHoLDGyWMA&s" height="120px" alt="Artist 2">
+                    <p>Neha Kakkar</p>
+                </div>
+                <div class="artist">
+                    <img src="https://static.toiimg.com/thumb/msid-94687395,width-400,resizemode-4/94687395.jpg" height="120px" alt="Artist 2">
+                    <p>Badshah</p>
+                </div>
+               
+                <!-- Add more artists as needed -->
+            </section>
+        </main>
+        <aside class="queue">
+            <h2>Queue</h2>
+            <ul>
+                <li class="queue-item">
+                    <div class="queue-number">01</div>
+                    <div class="queue-cover"><img src="https://c.saavncdn.com/487/Mirage-Hindi-2020-20210518201514-500x500.jpg" alt="Mirage"></div>
+                    <div class="queue-details">
+                        <div class="queue-title">Mirage</div>
+                        <div class="queue-artist">Else</div>
+                    </div>
+                    <div class="queue-like"><i class="fas fa-heart"></i></div>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-number">02</div>
+                    <div class="queue-cover"><img src="https://i1.sndcdn.com/artworks-000246823724-4c1hgq-t500x500.jpg" alt="Sorry"></div>
+                    <div class="queue-details">
+                        <div class="queue-title">Sorry</div>
+                        <div class="queue-artist">Justin Bieber</div>
+                    </div>
+                    <div class="queue-like"><i class="fas fa-heart"></i></div>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-number">03</div>
+                    <div class="queue-cover"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdQ90qxtzbG3aWJ287FfjCMu40re4sLlEeWg&s" alt="See You"></div>
+                    <div class="queue-details">
+                        <div class="queue-title">See You</div>
+                        <div class="queue-artist">Wiz Khalifa</div>
+                    </div>
+                    <div class="queue-like"><i class="fas fa-heart"></i></div>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-number">04</div>
+                    <div class="queue-cover"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgYs2bkGhy7JkwlMU5U_p5Z3tiDY3-RaEFPA&s" alt="Willow"></div>
+                    <div class="queue-details">
+                        <div class="queue-title">Willow</div>
+                        <div class="queue-artist">Ever More</div>
+                    </div>
+                    <div class="queue-like"><i class="fas fa-heart"></i></div>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-number">05</div>
+                    <div class="queue-cover"><img src="https://c.saavncdn.com/631/Oh-My-God-Hindi-2012-20221212170044-500x500.jpg" alt="Oh God"></div>
+                    <div class="queue-details">
+                        <div class="queue-title">Oh God</div>
+                        <div class="queue-artist">OMG</div>
+                    </div>
+                    <div class="queue-like"><i class="fas fa-heart"></i></div>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-number">06</div>
+                    <div class="queue-cover"><img src="https://i.ytimg.com/vi/pEy5x-vTH4g/maxresdefault.jpg" alt="Friday"></div>
+                    <div class="queue-details">
+                        <div class="queue-title">Friday</div>
+                        <div class="queue-artist">Rebecca</div>
+                    </div>
+                    <div class="queue-like"><i class="fas fa-heart"></i></div>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-number">07</div>
+                    <div class="queue-cover"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhHbVFMIKCTdvEIWf2Jl9l6iM66_42f41igQ&s" alt="Do It"></div>
+                    <div class="queue-details">
+                        <div class="queue-title">Do It</div>
+                        <div class="queue-artist">Taylor Swift</div>
+                    </div>
+                    <div class="queue-like"><i class="fas fa-heart"></i></div>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-number">08</div>
+                    <div class="queue-cover"><img src="https://c.saavncdn.com/022/Heeriye-feat-Arijit-Singh-Hindi-2023-20230928050405-500x500.jpg" alt="Heeriye"></div>
+                    <div class="queue-details">
+                        <div class="queue-title">Heeriye</div>
+                        <div class="queue-artist">Arijit Singh</div>
+                    </div>
+                    <div class="queue-like"><i class="fas fa-heart"></i></div>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-number">09</div>
+                    <div class="queue-cover"><img src="https://i1.sndcdn.com/artworks-000080771202-guhfwf-t500x500.jpg" alt="Hamdard"></div>
+                    <div class="queue-details">
+                        <div class="queue-title">Hamdard</div>
+                        <div class="queue-artist">Arijit Singh</div>
+                    </div>
+                    <div class="queue-like"><i class="fas fa-heart"></i></div>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-number">09</div>
+                    <div class="queue-cover"><img src=" https://c.saavncdn.com/111/Kya-Loge-Tum-Hindi-2023-20230507053259-500x500.jpg" alt="Kya Loge Tum"></div>
+                    <div class="queue-details">
+                        <div class="queue-title">Kya Loge Tum</div>
+                        <div class="queue-artist">B Praak</div>
+                    </div>
+                    <div class="queue-like"><i class="fas fa-heart"></i></div>
+                </li>
+                <li class="queue-item">
+                    <div class="queue-number">09</div>
+                    <div class="queue-cover"><img src="https://c.saavncdn.com/347/Baarish-Ban-Jaana-Hindi-2021-20210601053345-500x500.jpg" alt="Baarish"></div>
+                    <div class="queue-details">
+                        <div class="queue-title">Baarish</div>
+                        <div class="queue-artist">Stebin Ben</div>
+                    </div>
+                    <div class="queue-like"><i class="fas fa-heart"></i></div>
+                </li>
+
+            </ul>
+        </aside>
+    </div>
+    <footer class="player-bar">
+        <div class="player-controls">
+            <button>Previous</button>
+            <button>Play</button>
+            <button>Next</button>
+        </div>
+    </footer>
+</body>
+</html>
